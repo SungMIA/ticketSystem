@@ -7,6 +7,39 @@
   pointer-events: none;
 }
 
+.card {
+  margin: 1vw;
+}
+
+.descriptionInput {
+  width: 50vw;
+  height: 20vw;
+}
+
+.userInput {
+  margin: 1vw;
+}
+
+#new {
+  background-color: greenyellow;
+}
+
+#inProgress {
+  background-color: yellow;
+}
+
+#resolved {
+  background-color: #61dafb;
+}
+
+.response {
+  margin: 1vw;
+}
+
+.card-text {
+  padding-bottom: 1vw;
+  background-color: snow;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
